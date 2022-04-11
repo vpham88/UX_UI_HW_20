@@ -1,0 +1,359 @@
+.navigation {
+    background-color: #373738;
+}
+
+nav {
+    padding: 1%;
+}
+
+ul {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.heroImg {
+    background-image: url("../images/colorbkg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 500px;
+    height: calc(100vh - 110px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.display-4 {
+    font-family: "Coiny";
+    font-size: 100px;
+}
+
+.lead {
+    font-family: "Comfortaa";
+    font-size: 25px;
+}
+
+h1 {
+    color: white;
+    font-family: "Coiny";
+}
+
+.bioImg {
+    padding-top: 25px;
+}
+
+.bioImage {
+    width: 650px !important;
+    padding-left: 150px;
+}
+
+.content {
+    color: white;
+    font-family: "Comfortaa";
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.myBio {
+    width: 1300px;
+    color: white;
+    font-family: "Comfortaa";
+    font-size: 24px;
+    padding-left: 100px;
+}
+
+footer {
+    background-color: #373738;
+    color: white;
+    padding: 1%;
+}
+
+body {
+    background-color: #474747;
+}
+
+.VPlogo {
+    width: auto;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aboutMe {
+    font-size: 50px;
+    font-family: "Coiny";
+    float: left;
+    padding-left: 150px;
+}
+
+.downloadResume {
+    width: 250px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.myuxSkills {
+    padding-left: 150px;
+    padding-top: 200px;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    min-height: 300px;
+    height: 40vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.research {
+    grid-area: research;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 40%;
+    height: auto;
+    text-align: center;
+}
+
+.design {
+    grid-area: design;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 40%;
+    height: auto;
+    text-align: center;
+}
+
+.webDevelopment {
+    grid-area: webDevelopment;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 40%;
+    height: auto;
+    text-align: center;
+}
+
+.myWork {
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.workContainer {
+    color: white;
+    gap: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "letsRole doeWebsite"
+    "hartWebsite placeHolder"
+   ;
+}
+
+#letsRoleDes {
+    position: absolute;
+    width: 100%;
+    padding: 50px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+#doeWebsiteDes {
+    position: absolute;
+    width: 100%;
+    padding: 50px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+#hartWebsiteDes {
+    position: absolute;
+    width: 100%;
+    padding: 50px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+#placeHolderDes {
+    position: absolute;
+    width: 100%;
+    padding: 50px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+.letsRole {
+    grid-area: letsRole;
+    position: relative;
+}
+
+.doeWebsite {
+    grid-area: doeWebsite;
+    position: relative;
+}
+
+.hartWebsite {
+    grid-area: hartWebsite;
+    position: relative;
+}
+
+.placeHolder {
+    grid-area: placeHolder;
+    position: relative;
+}
+
+button {
+    background-color: #6c00f0;
+    font-size: 20px;
+    color: white;
+    width: auto;
+    height: 60px;
+    font-family: "Comfortaa";
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.workTitle {
+    font-family: "Coiny";
+    font-size: 36px;
+}
+
+.descriptionText {
+    font-size: 24px;
+    padding-top: 50px;
+    font-family: "Comfortaa";
+}
+
+.workImage {
+    width: 100%;
+    height: auto;
+}
+
+.uxresearch {
+    border-radius: 50%;
+    width: 300px;
+    height: 150px;
+}
+.uxdesign {
+    border-radius: 50%;
+    width: 300px;
+    height: 150px;
+}
+.webdev {
+    border-radius: 50%;
+    width: 300px;
+    height: 150px;
+}
+
+.letsConnect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#connectTitle {
+    font-family: "Comfortaa";
+    padding-top: 150px;
+}
+
+#connectDescription {
+    color: white;
+    font-family: "Comfortaa";
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.connectIcons {
+    padding-bottom: 150px;
+}
+
+#linkedIn {
+    padding-bottom: 10px;
+}
+
+#instagramLogo {
+    padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 600) {
+    .flexContainer {
+        margin: 0px 5%;
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "research"
+        "design"
+        "webdevelopment";
+
+    }
+    .research {
+        width: 100%;
+        grid-area: research;
+    }
+    .design {
+        grid-area: design;
+        width: 100%;
+    }
+    .webDevelopment {
+        grid-area: webDevelopment;
+        width: 100%;
+    }
+    .workContainer {
+        margin: 0px 5%;
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "letsRole"
+        "doeWebsite"
+        "hartWebsite"
+        "placeHolder";
+    }
+}

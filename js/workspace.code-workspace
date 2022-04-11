@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "UX_UI_HW_19",
+			"path": ".."
+		},
+		{
+			"name": "UX_UI_HW_18",
+			"path": "../../UX_UI_HW_18"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "UX_UI_HW_19"
+	}
+}

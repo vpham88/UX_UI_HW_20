@@ -1,13 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Van Pham - UX | UI | Web</title>
 </head>
 <body>
+    <header class="navigation">
+        <img class="VPlogo" src="images/logo.png" alt="logo">
+        <nav>
+            <ul>
+                <li>About Me</li>
+                <li>My Work</li>
+                <li>Let's Connect</li>
+
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron heroImg">
+        <div class="jumboCopy">
+        <h1 class="display-4">Hi, I'm Van.</h1>
+        <p class="lead">I am a UX/UI Designer | Researcher | Creative Innovator | Instructional Designer | Web Design Enthusiast</p>
+        <hr class="my-4">
+        </div>
+      </div>
+      <!-- End jumbotron -->
+
+    <section class="bioImg">
+        <h1 class="aboutMe">About Me</h1>
+        <div class="content">
+            <img class="bioImage" src="images/headshot.jpeg">
+           <div><p class="myBio">I specialize in UX Research and Design with a strong interest in UI Design. I am passionate about improving the lives of others by first understanding user needs and ideating potential solutions. I enjoy solving unique and complex user problems that requires innovative and outside-of-the-box solutions. 
+
+                <br></br>I enjoy the ideation phase and brainstorming with a team to come up with a new and fun idea for clients. In a team, I am typically the creative or project lead.
+                
+                <br></br>I am also a life-longer learner and I enjoy learning new things and new ways of accomplishing a task which is why I have enjoyed the UX field. It's always evolving and it challenges you to be more creative with each solution.</p>
+                <button class="downloadResume">Download Resume</button>
+            </div> 
+        </div>
+
+    </section>
+
+        <!-- My UX Skills section coded using CSS flex-->
+        <section class="mySkills">
+            <h1 class="myuxSkills">My UX Skills</h1>
+            <div class="flexContainer">
+                <div class="research">
+                    <img class="uxresearch" src="images/research.png" alt="UX Research">
+                    <h3>UX Research</h3>
+                    <p>In UX Research, I help identify the problem, creating proto personas, conducting user interviews, affinity diagrams, and a user personas. I particularly enjoy the brainstorming process and ideation.</p>
+                </div>
+                <div class="design">
+                    <img class="uxdesign" src="images/ux design.jpeg" alt="UX Design">
+                    <h3>UX Design</h3>
+                    <p>In UX Design, I create paper, lo-fi, mid-fi, and hi-fi prototypes. I enjoy the interative process of improving on each version after a usability test to provide a product that would be beneficial to the users.</p>
+                </div>
+                <div class="webDevelopment">
+                    <img class="webdev" src="images/web development.png" alt="Web Development">
+                    <h3>Web Development</h3>
+                    <p>I am an emerging Web Developer and I aspire to create good web designs for users. I am a novice who continuously practice and read about how to program. I can design in HTML, CSS, and a little bit of JavaScript.</p>
+                </div>
+            </div>
+        </section>
     
+        <!--My Work Section Constructed using CSS-->
+        <section>
+            <h1 class="myWork">My Work</h1>
+        <div class="workContainer">
+            <div class="letsRole">
+                    <img class="workImage" src="images/letsrole.png" alt="Let's Role">    
+                    <div id="letsRoleDes">
+                    <h2 class="workTitle">Let's Role</h2>
+                    <p class="descriptionText">Let's Role is an app designed to provide an avenue for tabletop gamers to connect and play tabletop games with others in their community.</p>
+                    <button>View Project</button>
+                    </div>
+            </div>
+            <div class="doeWebsite">
+                    <img class="workImage" src="images/doe2.png" alt="Department of Defense">
+                    <div id="doeWebsiteDes">
+                    <h2 class="workTitle">Department of Education</h2>
+                    <p class="descriptionText">The Department of Education provides information to students, teachers, and parents about college, student loans, grants, laws, guidance, and data. The website required a re-design to better align their website to the needs of the user.</p>
+                    <button>View Project</button>
+                    </div>
+            </div>
+            <div class="hartWebsite">
+                    <img class="workImage" src="images/hart2.png" alt="HART">
+                    <div id="hartWebsiteDes">
+                    <h2 class="workTitle">Homeless Animal Rescue Team (HART)</h2>
+                    <p class="descriptionText">HART is a no-kill animal rescue and support group that takes in and rehomes abused and unwanted cats and dogs. The website required a re-design to better align their adoption page to the needs of the user.</p>
+                    <button>View Project</button>
+                    </div>
+            </div>
+            <div class="placeHolder">
+                    <img class="workImage" src="images/placeholder.png" alt="HART">
+                    <div id="placeHolderDes">
+                    <h2 class="workTitle">Placeholder Project</h2>
+                    <p class="descriptionText">Description of Project</p>
+                    <button>View Project</button>
+                    </div>
+            </div>
+        </div>         
+        </section>
+
+<!--Let's Connect-->
+<section>
+    <div class="letsConnect">
+        <h1 id="connectTitle">Let's Connect!</h1>
+        <p id="connectDescription">Get in touch for opportunities or just to say hi!</p>
+        <div class="connectIcons">
+            <img id="linkedIn" src="images/Frame.svg" alt="LinkedIn">
+            <img id="emailLogo" src="images/Frame-2.svg" alt="Email Logo">
+            <img id="instagramLogo" src="images/Frame-1.svg" alt="Instagram">
+        </div>
+    </div>
+</section>
+
+
+
+<!--Footer-->
+
+        <footer>
+            <ul>
+                <li>About Me</li>
+                <li>My Work</li>
+                <li>Let's Connect</li>
+            </ul>
+        </footer>
+
+    <!-- Optional JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 </html>
