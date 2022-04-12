@@ -15,6 +15,19 @@
     <title>HART Case Study</title>
 </head>
 <body>
+  <header class="navigation">
+    <a href="index.html"><img class="VPlogo" src="images/logo.png" alt="logo"></a>
+    <nav>
+        <ul class="navList">
+            <li class="navBullets">About Me</li>
+            <li class="navBullets">My Work</li>
+            <li class="navBullets">Let's Connect</li>
+
+        </ul>
+
+    </nav>
+</header>
+<!-- 
     <ul class="nav justify-content-center contentNav">
         <li class="nav-item">
           <a class="nav-link active" href="#">Research</a>
@@ -28,14 +41,81 @@
         <li class="nav-item">
             <a class="nav-link" href="#">Prototype</a>
           </li>
-      </ul>
+      </ul> -->
 
-      <div class="jumbotron jumbotron-fluid">
+      <!--HART Case Study Introduction-->
+      <div class="jumbotron jumbotron-fluid heroCase">
         <div class="container">
-          <h1 class="display-4">Homeless Animal Rescue Team (HART)</h1>
-          <p class="lead">HART is a no-kill animal rescue and support group that takes in and re-homes abused and unwanted cats and dogs. The website was not user friendly for new pet adopters due to it's lack of transparency with their animals. It also had many hidden pages in the sitemap and needed a restructure.</p>
+          <h1 class="display-4 hartTitle">Homeless Animal Rescue Team (HART)</h1>
+          <p class="lead hartBio">HART is a no-kill animal rescue and support group that takes in and re-homes abused and unwanted cats and dogs. The website was not user friendly for new pet adopters due to it's lack of transparency with their animals. It also had many hidden pages in the sitemap and needed a restructure.</p>
+        </div>
+        <div>
+          <img id="hartHero" src="images/HARThero.png">
         </div>
       </div>
+
+      <!--HART Problem Statement and Possibly Solutions-->
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card problemCard">
+            <div class="card-body">
+              <h5 class="card-title problemTitle">Problem Statement</h5>
+              <p class="card-text">People looking to adopt pets want to learn and know more about the pets prior to adoption. This is because they have experienced incompatibility with the pets once they were brought home. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card solutionCard">
+            <div class="card-body">
+              <h5 class="card-title solutionTitle">Possible Solution</h5>
+              <p class="card-text">Greater transparency during the pet adoption process for new pet owners on pet personality and energy. The ability to meet with pets virtually prior to adoption can help to provide more insight into the pet's behavior.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Design Process-->
+      <h2 id="designProcess" >Design Process</h2>
+      <img id="designImage" src="images/designProcess.png">
+      <div class="designPlan">
+      <h2 id="designTitle">Design Plan</h2>
+      <p id="designPlanning">In this research project, I helped plan the research and user interview. We conducted a total of 9 user interviews with potential pet adopters in the Washington D.C. area.</p>
+      <ul class="designInterview">
+        <li class="designUsers">Many of the users expressed that they had issues of not knowing what their pet's behavior was like prior to adoption</li>
+        <li class="designUsers">Some were afraid to adopt because they heard stories of pet behavior incompatibilities</li>
+        <li class="designUsers">One user had a particularly bad experience with their dog having behavioral issues that required external assistance such as doggy training camp to correct behavioral issues</li>
+      </ul>
+      <div class="designGoals">
+        <h3 id="goalsTitle">Our Goals</h3>
+        <ul class="goalsList">
+          <li class="listGoals">Help users see all of the animals that need homes</li>
+          <li class="listGoals">Help users find animals that need a foster home</li>
+          <li class="listGoals">Help users find their pet match through personality and behavior commonalities</li>
+          <li class="listGoals">Help special pets that have medical conditions and need a special home</li>
+          <li class="listGoals">Provide a way for users to donate to a nonprofit</li>
+          <li class="listGoals">Provide valuable information for pet owners</li>
+        </ul>
+      </div>
+      <div class="designGoals">
+        <h3 id="goalsTitle">In order to achieve our goals, we needed to answer the following questions</h3>
+        <ul class="goalsList">
+          <li class="listGoals">What is the typical process people go through to find pets?</li>
+          <li class="listGoals">What features would help people find their pet match?</li>
+          <li class="listGoals">How do people find their pet match?</li>
+          <li class="listGoals">What is the motivation level of our audience to foster or adopt?</li>
+        </ul>
+      </div>
+      </div>
+
+      <!--Competitor Analysis section-->
+      <section>
+        <div class="competitorAnalysis">
+          <h2 id="competitorTitle">Competitor Analysis</h2>
+          <p id="competitorInfo">We completed a Competitor Analysis to assess the strengths and weaknesses of current and potential competitors that have similar offerings. We reviewed three direct and three indirect competitors and documented what features each site had.</p>
+          <img id="competitorImage" src="images/competitorAnalysis.png" alt="Competitor Analysis Comparison Chart">
+        </div>
+      </section>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

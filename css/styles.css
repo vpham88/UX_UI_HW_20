@@ -6,7 +6,7 @@ nav {
     padding: 1%;
 }
 
-ul {
+.navList {
     display: flex;
     color: white;
     text-decoration: none;
@@ -89,7 +89,7 @@ body {
     justify-content: space-between;
 }
 
-li {
+.navBullets {
     margin-left: 50px;
     text-decoration: none;
     font-size: 24px;
@@ -142,6 +142,7 @@ section {
     width: 40%;
     height: auto;
     text-align: center;
+    font-family: "Comfortaa";
 }
 
 .design {
@@ -151,6 +152,7 @@ section {
     width: 40%;
     height: auto;
     text-align: center;
+    font-family: "Comfortaa";
 }
 
 .webDevelopment {
@@ -160,6 +162,7 @@ section {
     width: 40%;
     height: auto;
     text-align: center;
+    font-family: "Comfortaa";
 }
 
 .myWork {
@@ -319,6 +322,142 @@ button {
 
 #instagramLogo {
     padding-bottom: 5px;
+}
+
+.heroCase {
+    background-color: white;
+    display: flex;
+}
+
+.hartTitle {
+    /* padding-left: 100px; */
+    padding-right: 50px;
+    color: black;
+}
+
+.hartBio {
+/*     padding-left: 100px; */
+    padding-right: 50px;
+}
+
+#hartHero {
+    width: 1000px;
+    padding-right: 200px;
+}
+
+.problemCard {
+    width: 1000px;
+    height: 200px;
+    margin-left: 210px;
+    margin-top: 150px;
+}
+
+.problemTitle {
+    color: #6c00f0;
+    font-size: 30px;
+    font-family: "Coiny";
+}
+
+.solutionTitle {
+    color: #F06C00;
+    font-size: 30px;
+    font-family: "Coiny";
+}
+
+.solutionCard {
+    width: 1000px;
+    height: 200px;
+    margin-right: 5%;
+    margin-top: 150px;
+}
+
+.card-text {
+    font-family: "Comfortaa";
+    font-size: 24px;
+}
+
+#designProcess {
+    margin-top: 200px;
+    margin-left: 210px;
+    font-family: "Coiny";
+    font-size: 48px;
+}
+
+#designImage {
+    width: 1800px;
+    height: auto;
+    margin-left: 350px;
+    padding-bottom: 100px;
+}
+
+#designTitle {
+    margin-left: 210px;
+    margin-top: 150px;
+    font-family: "Coiny";
+    font-size: 48px;
+}
+
+#designPlanning {
+    margin-left: 210px;
+    margin-right: 200px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: "Comfortaa";
+}
+
+.designUsers {
+    color: black;
+    font-family: "Comfortaa";
+    list-style: circle;
+    margin-left: 250px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.designInterview {
+    margin-bottom: 100px;
+}
+
+.designGoals {
+    font-family: "Comfortaa";
+    margin-left: 210px;
+    margin-bottom: 40px;
+}
+
+.listGoals {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    list-style: decimal;
+}
+
+.designGoals {
+    margin-bottom: 100px;
+}
+
+#competitorImage {
+    width: 1800px;
+    margin-left: 250px;
+    margin-bottom: 100px;
+}
+
+.competitorAnalysis {
+    margin-top: 200px;
+}
+
+#competitorTitle {
+    font-family: "Coiny";
+    font-size: 48px;
+    margin-left: 100px;
+}
+
+#competitorInfo {
+    font-family: "Comfortaa";
+    font-size: 24px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 @media only screen and (max-width: 600) {
