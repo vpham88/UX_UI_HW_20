@@ -378,16 +378,33 @@ button {
 
 #designProcess {
     margin-top: 200px;
-    margin-left: 210px;
     font-family: "Coiny";
-    font-size: 48px;
+    font-size: 6rem;
+    text-align: center;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.designImagecenter {
+    display: flex;
+    justify-content: center;
 }
 
 #designImage {
-    width: 1800px;
+    width: 1500px;
     height: auto;
-    margin-left: 350px;
     padding-bottom: 100px;
+}
+
+.empathize {
+    text-align: center;
+    font-size: 6rem;
+    margin-top: 100px;
+    font-family: "Coiny";
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #designTitle {
@@ -436,9 +453,13 @@ button {
     margin-bottom: 100px;
 }
 
+.competitorImageparent {
+    display: flex;
+    justify-content: center;
+}
+
 #competitorImage {
-    width: 1800px;
-    margin-left: 250px;
+    width: 1500px;
     margin-bottom: 100px;
 }
 
@@ -458,6 +479,129 @@ button {
     margin-left: 100px;
     margin-bottom: 50px;
     margin-top: 20px;
+}
+
+#interviewTitle {
+    font-family: "Coiny";
+    font-size: 48px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#interviewInfo {
+    font-family: "Comfortaa";
+    font-size: 24px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.interviewQuestions {
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 20px;
+    list-style: decimal;
+    font-family: "Comfortaa";
+}
+
+.userInterviews {
+    margin-bottom: 200px;
+}
+
+#userInsight {
+    font-family: "Coiny";
+    font-size: 48px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#insightInfo {
+    font-family: "Comfortaa";
+    font-size: 24px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.insightImageparent {
+    display: flex;
+    justify-content: center;
+}
+
+#insightImage {
+    width: 1500px;
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+
+#personaTitle {
+    font-family: "Coiny";
+    font-size: 48px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#personaInfo {
+    font-family: "Comfortaa";
+    font-size: 24px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.personaImageparent {
+    display: flex;
+    justify-content: center;
+}
+
+#personaImage {
+    width: 1500px;
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
+
+.ideate {
+    text-align: center;
+    font-size: 6rem;
+    margin-top: 100px;
+    font-family: "Coiny";
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#journeyTitle {
+    font-family: "Coiny";
+    font-size: 48px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#journeyInfo {
+    font-family: "Comfortaa";
+    font-size: 24px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.journeyImageparent {
+    display: flex;
+    justify-content: center;
+}
+
+#journeyImage {
+    width: 1500px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.userStoryboardparent {
+    display: flex;
+    justify-content: center;
+}
+
+#userStoryboard {
+    width: 1500px;
+    margin-bottom: 200px;
+    margin-top: 50px;
 }
 
 @media only screen and (max-width: 600) {
